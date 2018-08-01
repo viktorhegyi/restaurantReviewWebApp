@@ -44,7 +44,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+	padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -164,7 +165,6 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
   min-width: 100%;
 }
 #restaurants-list li h1 {
@@ -316,7 +316,7 @@ nav h1 a {
 		order: 0;
 	}
 	header #breadcrumb {
-		oerder: 1;
+		order: 1;
 		width: 100vw;
 		padding-right: 0;
 		padding-left: 0;
@@ -369,5 +369,10 @@ nav h1 a {
 @media only screen and (max-width: 400px) {
 	nav h1 a {
 	letter-spacing: 0;
+	}
+	.filter-options {
+		display: flex;
+		flex-direction: column;
+		height: 150px;
 	}
 }
