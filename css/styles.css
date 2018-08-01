@@ -48,6 +48,9 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+label {
+	display: none;
+}
 /* ====================== Navigation ====================== */
 nav {
 	display: flex;
